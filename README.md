@@ -50,3 +50,21 @@ Develop a class with linked list data structure within Javascript
 - maxDepth: Given a binary tree, find its maximum depth. The maximum depth is the number of nodes along the longest path from root node down to the nearest leaf node.
 - maxSum: Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree, but no node can be visited more than once.
 - nextLarger: Given a binary tree and a integer x. Find and return the value of the node with next larger element in the tree i.e. find a node with value just greater than x. Return null if no node is present with value greater than x.
+
+## Binary Search Trees
+- insert: This function should insert a node in a binary tree. It should return the BinarySearchTree and should be solved using iteration.
+- insertRecursively: This function should insert a node in a binary tree. It should return the BinarySearchTree and should be solved using recursion.
+- find: This function should find a node in a binary tree. It should return the node if found, otherwise return undefined. This should be solved using iteration.
+- findRecursively: This function should find a node in a binary tree. It should return the node if found, otherwise return undefined. This should be solved using recursion.
+- dfsPreOrder: This function should search through each node in the binary search tree using pre-order depth first search and return an array containing each node’s value.
+- dfsInOrder: This function should search through each node in the binary search tree using in-order depth first search and return an array containing each node’s value.
+- dfsPostOrder: This function should search through each node in the binary search tree using post-order depth first search and return an array containing each node’s value.
+- bfs: This function should search through each node in the binary search tree using breadth first search and return an array containing each node’s value.
+
+## Graphs
+- addVertex/addVertices: This function should add a node to the graph.
+- addEdge: This function should add an edge between two nodes in the graph and place each value of the nodes in each array for the value of the node in the adjacency list.
+- removeEdge: This function should accept two nodes and remove the edge between them. It should modify the adjacency list to ensure that both values are not in each array for the two nodes which no longer contain the edge.
+- removeVertex: This function should remove the node in the array of nodes and also remove all edges that the removed node previously contained.
+- depthFirstSearch: This function should return an array of nodes visited using DFS. You can do this iteratively (using a stack) or recursively, but note the order of the results will be different.
+- breadthFirstSearch: This function should return an array of vertices visited using BFS.
