@@ -68,3 +68,12 @@ Develop a class with linked list data structure within Javascript
 - removeVertex: This function should remove the node in the array of nodes and also remove all edges that the removed node previously contained.
 - depthFirstSearch: This function should return an array of nodes visited using DFS. You can do this iteratively (using a stack) or recursively, but note the order of the results will be different.
 - breadthFirstSearch: This function should return an array of vertices visited using BFS.
+
+## Sorting
+- bubbleSort: Implement a function called bubbleSort. Given an array, bubbleSort will sort the values in the array. Bubble sort is an O(n^2) algorithm.
+- merge: Given two sorted arrays, write a function called merge which accepts two sorted arrays and returns a new array with values from both arrays sorted. This function should run in O(n + m) time and O(n + m) space and should not modify the parameters passed to it. Also, do not use the built in .sort() method! We’re going to use this function to implement a sort, so the helper itself shouldn’t depend on a sort.
+- mergeSort: Implement the merge sort algorithm. Given an array, this algorithm will sort the values in the array. Here’s some guidance for how merge sort should work: 
+    - Break up the array into halves until you can compare one value with another
+    - Once you have smaller sorted arrays, merge those with other sorted pairs until you are back at the full length of the array
+    - Once the array is merged back together, return the merged (and sorted!) array
+    - In order to implement this function, you’ll also need to implement a merge function that takes in two sorted arrays and returns a new sorted array. You implemented this function in the previous exercise, so use that function!
